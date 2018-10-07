@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbars="vertical"
+    tools:context="com.example.miestro.marca.Details">
+
+
+
+
+    <ImageView
+
+        android:layout_width="match_parent"
+        android:layout_height="203dp"
+        android:id="@+id/image_dtails"
+       android:src="@drawable/player"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title_details"
+        android:id="@+id/Title_details"
+        android:textSize="30sp"
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="descrijs uhvnis bnsvkjn hjbhksbj bldhbl  hl blj"
+        android:textSize="20sp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:id="@+id/details_description"
+        />
+</LinearLayout>
